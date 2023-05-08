@@ -1,0 +1,692 @@
+
+CONTACTO
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/4199421b66.js" crossorigin="anonymous"></script>
+    <title>Hito Grupal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+    <div id="header1">
+        <div class="grid">
+    
+                    <div class="row" size="12">
+                
+                        <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="index.html">Inicio</a></div>
+                        </div>
+            
+                        <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Objetivo.html">Objetivo</a></div>
+                        </div>
+            
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Resultados.html">Resultado</a></div>
+                        </div>
+            
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Contacto.html">Contacto</a></div>
+                        </div>
+            
+                    </div>
+         </div>  
+    </div>
+            
+    <div id="bodycontacto1">
+        <video src="Video\lightning_effects.mov" autoplay="true" muted="true" loop="true" poster=""></video>
+        <div id="bodycontacto2">
+
+            <div id="titucontacto"> 
+                CONTACTO
+            </div>
+            <div id="descontacto"> 
+                Rellena los siguientes campos para que contactemos con usted y recogamos sus datos de cliente.
+            </div>
+            <div id="formcontacto">
+                <form action=""method="get" id="contenedor">
+                    <div id="parte1">
+                        <div>
+                            <label for="nombre1">Nombre</label>
+                            <input type="text" name="nombre" id="" size="10">
+                        </div>
+                        
+                        <div>
+                            <label for="apellidos">Apellidos</label>
+                            <input type="text" name="Apellido1" id="">
+                            <input type="text" name="Apellido2" id="">
+                        </div>
+                        <div>
+                            <label for="dni">DNI</label>
+                            <input type="text" name="DNI" id="" size="10" maxlength="9">
+                        </div>
+                        <div>
+                            <label for="edad">Edad</label>
+                            <input type="number" name="Edad" id="" >
+                        </div>
+                        <div>
+                            <label for="fecha">Fecha de nacimiento</label>
+                            <input type="date" name="Fecha" id="" size="10" >
+                        </div>
+                        <div>
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" name="telefono" id="" size="10" maxlength="9" >
+                        </div>
+                        <div>
+                            <label for="emeail">Correo Electrónico</label>
+                            <input type="email" name="email" id="" size="40" >
+                        </div>
+                        <div>
+                            <label for="p3">Lugar de residencia</label><br/>
+                            <select id="provincia" name="provincia">
+                                <option value="" selected="selected">- selecciona -</option>
+                                <option value="01">Álava/Araba</option>
+                                <option value="02">Albacete</option>
+                                <option value="03">Alicante/Alacant</option>
+                                <option value="04">Almería</option>
+                                <option value="33">Asturias</option>
+                                <option value="05">Ávila</option>
+                                <option value="06">Badajoz</option>
+                                <option value="07">Balears (Illes)</option>
+                                <option value="08">Barcelona</option>
+                                <option value="09">Burgos</option>
+                                <option value="10">Cáceres</option>
+                                <option value="11">Cádiz</option>
+                                <option value="39">Cantabria</option>
+                                <option value="12">Castellón/Castelló</option>
+                                <option value="51">Ceuta</option>
+                                <option value="13">Ciudad Real</option>
+                                <option value="14">Córdoba</option>
+                                <option value="15">Coruña (A)</option>
+                                <option value="16">Cuenca</option>
+                                <option value="17">Girona</option>
+                                <option value="18">Granada</option>
+                                <option value="19">Guadalajara</option>
+                                <option value="20">Guipúzcoa/Gipuzkoa</option>
+                                <option value="21">Huelva</option>
+                                <option value="22">Huesca</option>
+                                <option value="23">Jaén</option>
+                                <option value="24">León</option>
+                                <option value="27">Lugo</option>
+                                <option value="25">Lleida</option>
+                                <option value="28">Madrid</option>
+                                <option value="29">Málaga</option>
+                                <option value="52">Melilla</option>
+                                <option value="30">Murcia</option>
+                                <option value="31">Navarra</option>
+                                <option value="32">Ourense</option>
+                                <option value="34">Palencia</option>
+                                <option value="35">Palmas (Las)</option>
+                                <option value="36">Pontevedra</option>
+                                <option value="26">Rioja (La)</option>
+                                <option value="37">Salamanca</option>
+                                <option value="38">Santa Cruz de Tenerife</option>
+                                <option value="40">Segovia</option>
+                                <option value="41">Sevilla</option>
+                                <option value="42">Soria</option>
+                                <option value="43">Tarragona</option>
+                                <option value="44">Teruel</option>
+                                <option value="45">Toledo</option>
+                                <option value="46">Valencia/València</option>
+                                <option value="47">Valladolid</option>
+                                <option value="48">Vizcaya/Bizkaia</option>
+                                <option value="49">Zamora</option>
+                                <option value="50">Zaragoza</option>
+                              </select>
+                        </div>
+                        <div>
+                            <label for="emeail">Codigo Postal</label>
+                            <input type="email" name="email" id="" size="10" >
+                        </div>
+                        <div>
+                            <label for="p3">¿Quieres recibir las novedades?</label><br/>
+                            <input type="radio" name="p3" value="ninguno" checked="checked" />Si<br/>
+                            <input type="radio" name="p3" value="ninguno" checked="checked" />No<br/>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+            <div id="boton">
+                ENVIAR
+            </div>
+        
+       
+        </div>
+    </div>
+    
+</body>
+</html>
+
+
+INICIO
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/4199421b66.js" crossorigin="anonymous"></script>
+    <title>Hito Grupal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+    <div id="header1">
+        <div class="grid">
+    
+                    <div class="row" size="12">
+                
+                        <div  class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="hover-underline-animation" class="tarjeta"><a href="index.html">Inicio</a></div>
+                        </div>
+            
+                        <div  class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="hover-underline-animation" class="tarjeta"><a href="Objetivo.html">Objetivo</a></div>
+                        </div>
+            
+                        <div  class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="hover-underline-animation" class="tarjeta"><a href="Resultados.html">Resultados</a></div>
+                        </div>
+            
+                        <div  class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="hover-underline-animation" class="tarjeta"><a href="Filtros.html">Contacto</a></div>
+                        </div>
+                    </div>
+    
+         </div>  
+    </div>
+            
+    
+    
+            <div id="cuerpo">
+
+                <video src="Video\lightning_effects.mov" autoplay="true" muted="true" loop="true" poster=""></video>
+                
+                <div id="barra">
+                     <div id="barra4">
+                            <aside id="a">
+                                <nav type="">
+                                    <ul type="none">
+                                        <li><a href=""><i class="fa-solid fa-house"></i></a></li>
+                                        <li><a href=""><img style="padding-right: 2px;" src="D:\LDM\HG\img\6394065.png" alt="" width="30px"></a></li>
+                                        <li><a href=""><img style="padding-right: 2px;" src="D:\LDM\HG\img\xml.png" alt="" width="30px"></a></li>
+                                        <li><a href=""><i class="fa-solid fa-phone-volume"></i></a></li>
+                                        <li><a href=""><img style="padding-left: 2px;" src="D:\LDM\HG\img\kisspng-computer-icons-web-browser-user-interface-internet-5abb424989ede6.230404521522221641565-removebg-preview.png" alt="" width="30px"></a></li>
+                                        
+                                        
+
+                                    </ul>
+                                </nav>
+                            </aside>
+                        </div>
+                    <div id="barra1">
+                        <div id="barra2">
+                            <div id="hg1">
+                                <h1>Hito Grupal</h1>
+                                <h4>Tercer Trimestre</h4>
+                            </div>
+                            <div id="hg2">
+                                <h4>Autores:</h4>
+                                <h6>Adrián Domínguez</h6>
+                                <h6>Carlos García</h6>
+                                <h6>Raul Suare🇿</h6>
+                            </div>
+                        </div>
+                        <div id="barra3">
+                            <aside id="a">
+                                <nav type="">
+                                    <ul type="none">
+                                        <li><a href=""><i class="fa-solid fa-bars"></i></a></li>
+                                        <li><a href="Ultimo Post.html"><i class="fa-solid fa-plus"></i></a></li>
+                                        <li><a href="Redes Sociales.html"><i class="fa-brands fa-instagram"></i></a></li>
+                                    </ul>
+                                </nav>
+                            </aside>
+                        </div>
+                       
+                    
+                    </div>
+                </div>
+            </div>
+
+</body>
+</html>
+
+
+OBJETIVO
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4199421b66.js" crossorigin="anonymous"></script>
+    <title>Hito Grupal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+    <div id="header1">
+        <div class="grid">
+                    <div class="row" size="12">
+                
+                        <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="index.html">Inicio</a></div>
+                        </div>
+            
+                        <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Objetivo.html">Objetivo</a></div>
+                        </div>
+            
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Resultados.html">Resultados</a></div>
+                        </div>
+            
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Filtros.html">Contacto</a></div>
+                        </div>
+                    </div>
+         </div>  
+    </div>
+            
+    <div id="body">
+        <video src="Video\lightning_effects.mov" autoplay="true" muted="true" loop="true" poster=""></video>
+        <div id="titucontacto"> 
+            OBJETIVO
+        </div>
+        <div id="objetivo1">
+            Estamos realizando un análisis de mercado en el ámbito estudiantil, en concreto del mercado de las aplicaciones móviles, al ser un mercado ya muy completo y con numerosas aplicaciones enfocadas a todos los temas posibles hemos tomado la decisión de realizar una investigación en nuestro centro con el objetivo posterior de poder realizar el desarrollo y lanzamiento de una aplicación móvil que pueda abarcar un amplio público, pero sobre todo que este enfocada a gente joven de un rango de edad entre 15 y 30 años. 
+        </div>
+        <div id="objetivo1">
+            Los tres miembros de este proyecto Carlos García-Paje, Adrián Domínguez y Raúl Suarez hemos tomado la decisión de realizar dicha investigación mediante el empleo de la herramienta “Google Forms”, herramienta muy conocida en la actualidad y muy accesible, con esta aplicación podremos recopilar una serie de respuestas las cuales serán transformadas a un archivo JSON para su posterior disposición en nuestra página web con el objetivo de que nuestros futuros clientes puedan ver algunos datos en los que se ha basado nuestra aplicación móvil.
+        </div>
+    </div>
+    
+    
+    REDES SOCIALES
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4199421b66.js" crossorigin="anonymous"></script>
+    <title>Hito Grupal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+    <div id="header1">
+        <div class="grid">
+    
+                    <div class="row" size="12">
+                
+                        <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="index.html">Inicio</a></div>
+                        </div>
+            
+                        <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Objetivo.html">Objetivo</a></div>
+                        </div>
+            
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Resultados.html">Resultados</a></div>
+                        </div>
+            
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Filtros.html">Contacto</a></div>
+                        </div>
+        
+                    </div>
+    
+         </div>  
+    </div>
+    <div id="bodyrs">
+        <video src="Video\lightning_effects.mov" autoplay="true" muted="true" loop="true" poster=""></video>
+        <div id="bodyrs2">
+            <div id="titucontacto"> 
+                REDES SOCIALES
+            </div>
+            <div>
+                <nav >
+                    <ul type="none">
+                        <li><div id="rs"><i class="fa-brands fa-instagram"></i><h2>INSTAGRAM</h2></div></li>
+                        <li><div id="rs"><i class="fa-brands fa-facebook"></i><h2>FACEBOOK</h2></div></li>
+                        <li><div id="rs"><i class="fa-brands fa-twitter"></i><h2>TWITTER</h2></div></li>
+                        <li><div id="rs"><i class="fa-brands fa-tiktok"></i></i><h2>TIK-TOK</h2></div></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+RESULTADOS
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <script src="https://kit.fontawesome.com/4199421b66.js" crossorigin="anonymous"></script>
+    <title>Hito Grupal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+    <div id="header1">
+        <div class="grid">
+    
+                    <div class="row" size="12">
+                
+                        <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="index.html">Home</a></div>
+                        </div>
+            
+                        <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Objetivo.html">Objetivo</a></div>
+                        </div>
+            
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Resultados.html">Resultados</a></div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Filtros.html">Contacto</a></div>
+                        </div>
+                    </div>
+         </div>  
+    </div>
+    <div id="cuerpo">
+        
+
+        <div id="espacio"></div>
+        <video src="Video\lightning_effects.mov" autoplay="true" muted="true" loop="true" poster=""></video>
+        <div class="contenido"> 
+
+            <header id="info">
+                <h3>Tercer trimestre - Lenguaje de Marcas</h3>
+            </header>
+            <form>
+                <label for="nombre">¿Cual es tu nombre?</label>
+                <select id="nombre" onChange="borrar();todo()">
+                    <option value="Selecciona">Selecciona</option>
+                    <option value="Jose_Fernandez_Sanchez">Jose Fernandez</option>
+                    <option value="Sergio_Álvarez_Sobrino">Sergio Álvarez</option>
+                    <option value="Alma_Marla_Gozo">Alma Marla</option>
+                    <option value="Paula_Fernandez_Rubio">Paula Fernandez</option>
+                    <option value="JAVIER_PEREZ">Javier Perez</option>
+                    <option value="javier">Javier</option>
+                    <option value="Alvaro_Martin_Martin">Alvaro Martin</option>
+                    <option value="Lucia_Suarez_Nicolau">Lucía Suarez</option>
+                    <option value="Javier_Moreno_Morenito">Javier Moreno</option>
+                    <option value="Marcos_Alvarez_Sobrino">Marcos Álvarez</option>
+                    <option value="Marcelo_dos_santos_Aveiro">Marcelo Dos Santos</option>
+                    <option value="Héctor_Villar">Héctor Villar</option>
+                    <option value="Cristiano_Ronaldo">Cristiano Ronaldo</option>
+                    <option value="Alba_Garcia_Perez">Alba García</option>
+                    <option value="Mario_Garcia_Rivera">Mario García Rivera</option>
+                    <option value="Diego_Godia_Patrán">Diego Godia</option>
+                    <option value="Carlos_García_Page_Alves">Carlos García-Page</option>
+                    <option value="Raul_Suarez">Raúl Suarez</option>
+                    <option value="Sergio_Fernandez_Rodrigues">Sergio Fernandez Rodigues</option>
+                    <option value="Tirson_Jesus_Sanchez">Tirson Jesus Sanchez</option>
+                    <option value="Saul_Higuera_Zurdo">Saul Higuera Zurdo</option>
+                </select>
+                <input type="text" id="value">
+                </fieldset>
+            </form>
+            <section id="sect">
+        </section>
+
+
+            <script type="text/javascript">
+
+                function borrar()
+                {
+                info.innerHTML = "";
+                sect.innerHTML = "";
+                }
+
+                function todo(){
+                var valor = "";
+                function update(valor) { 
+                var select = document.getElementById('nombre');
+                var option = select.options[select.selectedIndex];
+                document.getElementById('value').value = option.value;
+                var valor = option.value;
+                return valor;
+                }
+                valor = update(valor);
+                fetch("json.json")
+                    .then(response => response.json())
+                    .then(data => {
+                        console.log(data);
+                        update();
+                        console.log("Valor fetch: " + valor);
+                        valor = update(valor);
+                        populateDiv(data);
+                        populatePre(data);
+                    });
+
+
+                    function populateDiv(obj) {
+                        const section = document.querySelector('#info');
+                        const myInfo = document.createElement('h1');
+                        myInfo.textContent = `RESULTADO`;
+                        section.appendChild(myInfo);
+                    }
+
+
+                    function populatePre(obj) {
+                        const section2 = document.querySelector('#sect');
+                        const alumnos = obj.alumnos;
+
+
+                        for (const alum of alumnos) {
+                            if(alum.name == valor){
+                                const myArticle = document.createElement('article');
+                                const myH2 = document.createElement('h2');
+                                const myPara1 = document.createElement('p');
+                                const myPara2 = document.createElement('p');
+                                const myPara3 = document.createElement('p');
+                                const myUl = document.createElement('ul');
+                                const myH3Ul = document.createElement('h3') ;
+                                const myLi = document.createElement('li') ;
+                                const myLia = document.createElement('li') ;
+                                const myLib = document.createElement('li') ;
+                                const myLic = document.createElement('li') ;
+                                const myLid = document.createElement('li') ;
+                                const myLie = document.createElement('li') ;
+                                const myLif = document.createElement('li') ;
+                                const myLig = document.createElement('li') ;
+                                const myLih = document.createElement('li') ;
+                                const myLii = document.createElement('li') ;
+                                
+                                myH2.textContent = alum.name;
+                                myPara1.textContent = `Encuesta realizada:  ${alum.Marca_temporal}`;
+                                myPara2.textContent = `Edad:  ${alum.Edad}`;
+                                myPara3.textContent = `Centro:  ${alum.Centro_de_Campus_en_el_que_estudias}`;
+                                myPara3.textContent = `¿Qué estudias?:  ${alum.Grado_en_el_que_estudias}`;
+                                myH3Ul.textContent = `TODAS LAS PREGUNTAS:`;
+
+                                
+                                myUl.appendChild(myH3Ul);
+
+                                
+                                myLia.textContent = `¿Cuánto tiempo pasas al movil?:  ${alum.Cuanto_tiempo_estas_con_el_movil}`;
+                                myLib.textContent = `¿Género?: ${alum.Sexo}`;
+                                myLic.textContent = `¿Cuántas apps tienes instaladas(RRSS)?:  ${alum.Cuantas_aplicaciones_del_tipo_red_social_tienes_instaladas}`;
+                                myLid.textContent = `¿Para qué usas el movil?:  ${alum.Para_que_usas_el_movil}`;
+                                myLie.textContent = `¿Qué app usas para escuchar música?:  ${alum.Que_aplicación_usas_con_mayor_frecuencia_para_escuchar_musica}`;
+                                myLif.textContent = `¿Qué app usas para ver series?:  ${alum.Que_aplicación_usas_con_mayor_frecuencia_para_ver_series}`;
+                                myLig.textContent = `¿Por donde te enteras de las noticias?:  ${alum.Te_enteras_de_las_noticias_antes_en}`;
+                                myLih.textContent = `¿Cómo te entretienes?:  ${alum.Prefieres_entretenerte}`;
+                                myLii.textContent = `¿Podrías vivir sin el teléfono?:  ${alum.Podrias_estar_24h_sin_usar_el_telefonomovil}`;
+                                
+                                
+                                myUl.appendChild(myLia);
+                                myUl.appendChild(myLib);
+                                myUl.appendChild(myLic);
+                                myUl.appendChild(myLid);
+                                myUl.appendChild(myLie);
+                                myUl.appendChild(myLif);
+                                myUl.appendChild(myLig);
+                                myUl.appendChild(myLih);
+                                myLih.appendChild(myLii);
+
+                                myArticle.appendChild(myH2);
+                                myArticle.appendChild(myPara1);
+                                myArticle.appendChild(myPara2);
+                                myArticle.appendChild(myPara3);
+                                myArticle.appendChild(myUl);
+
+                                section2.appendChild(myArticle);
+                            }
+                        }
+                       
+                    }
+
+                
+                function populate() {
+                    fetch("json.json")
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log(data);
+                            update(valor);
+                            populateDiv(data);
+                            populatePre(data);
+                });
+                }
+            }
+            
+                
+            </script>
+
+        </div>
+
+    </div>
+</body>
+            
+    
+ULTIMO POST <!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4199421b66.js" crossorigin="anonymous"></script>
+    <title>Hito Grupal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+ 
+    <div id="header1">
+        <div class="grid">
+    
+                    <div class="row" size="12">
+                
+                        <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="index.html">Inicio</a></div>
+                        </div>
+            
+                        <div class=" col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Objetivo.html">Objetivo</a></div>
+                        </div>
+            
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Resultados.html">Resultados</a></div>
+                        </div>
+            
+                        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+                            <div class="tarjeta"><a href="Filtros.html">Contacto</a></div>
+                        </div>
+            
+                        
+                    </div>
+    
+         </div>  
+    </div>
+    <div id="bodyup">
+        <video src="Video\lightning_effects.mov" autoplay="true" muted="true" loop="true" poster=""></video>
+        <div id="bodyup2">
+            <div id="titucontacto"> 
+                ULTIMO POSTS
+            </div>
+            <div id="up">
+                <h5><i class="fa-solid fa-exclamation"></i>NOVEDAD</h5>
+            <span>Se ha realizado una encuesta mediante la herramienta Google Forms para empezar a conocer las preferencias de los usurarios</span>
+            <div>
+                <img src="img\Forms.png" alt="" width="500px">
+            </div>
+            </div>
+        </div>
+    </div>
+div
+</body>
+</html>
+
+
